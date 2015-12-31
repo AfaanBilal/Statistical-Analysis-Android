@@ -1,0 +1,346 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/titleXi"
+                android:gravity="center"
+                android:textSize="15pt"
+                android:textColor="@android:color/holo_green_dark" />
+
+            <EditText
+                android:id="@+id/etXi"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/XiHint" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/titleFi"
+                android:gravity="center"
+                android:textSize="15pt"
+                android:textColor="@android:color/holo_green_dark" />
+
+            <EditText
+                android:id="@+id/etFi"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/FiHint" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_calculate"
+        android:layout_marginTop="5pt"
+        android:layout_marginBottom="2pt"
+        android:onClick="doCalculate"
+        android:textSize="17pt"
+        android:textColor="#00aa00" />
+
+    <LinearLayout
+        android:id="@+id/resultContainer"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titleResult"
+            android:gravity="center"
+            android:textSize="20pt"
+            android:paddingTop="5pt"
+            android:paddingBottom="5pt"
+            android:textColor="#009900" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/titleCF"
+                    android:gravity="center"
+                    android:textSize="15pt"
+                    android:textColor="@android:color/holo_green_dark" />
+
+                <EditText
+                    android:id="@+id/etCF"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/titleFiXi"
+                    android:gravity="center"
+                    android:textSize="15pt"
+                    android:textColor="@android:color/holo_green_dark" />
+
+                <EditText
+                    android:id="@+id/etFiXi"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/titleXiM"
+                    android:gravity="center"
+                    android:textSize="15pt"
+                    android:textColor="@android:color/holo_green_dark" />
+
+                <EditText
+                    android:id="@+id/etXiM"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/titleFiXiM"
+                    android:gravity="center"
+                    android:textSize="15pt"
+                    android:textColor="@android:color/holo_green_dark" />
+
+                <EditText
+                    android:id="@+id/etFiXiM"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/titleXiMd"
+                    android:gravity="center"
+                    android:textSize="15pt"
+                    android:textColor="@android:color/holo_green_dark" />
+
+                <EditText
+                    android:id="@+id/etXiMd"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/titleFiXiMd"
+                    android:gravity="center"
+                    android:textSize="15pt"
+                    android:textColor="@android:color/holo_green_dark" />
+
+                <EditText
+                    android:id="@+id/etFiXiMd"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/labelMean"
+                android:gravity="center"
+                android:textSize="15pt"
+                android:textColor="@android:color/holo_green_dark" />
+
+            <EditText
+                android:layout_weight="1"
+                android:id="@+id/etMean"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/labelMd"
+                android:gravity="center"
+                android:textSize="15pt"
+                android:textColor="@android:color/holo_green_dark" />
+
+            <EditText
+                android:layout_weight="1"
+                android:id="@+id/etMd"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/labelDevM"
+                android:gravity="center"
+                android:textSize="15pt"
+                android:textColor="@android:color/holo_green_dark" />
+
+            <EditText
+                android:layout_weight="1"
+                android:id="@+id/etDevM"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/labelDevMd"
+                android:gravity="center"
+                android:textSize="15pt"
+                android:textColor="@android:color/holo_green_dark" />
+
+            <EditText
+                android:layout_weight="1"
+                android:id="@+id/etDevMd"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_reset"
+            android:onClick="doReset"
+            android:textSize="17pt"
+            android:textColor="#00aa00" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="10pt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/labelCopyright"
+        android:gravity="center"
+        android:textSize="11pt"
+        android:textColor="#009900" />
+</LinearLayout>
+</ScrollView>

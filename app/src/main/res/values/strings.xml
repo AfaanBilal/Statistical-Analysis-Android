@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Statistical Analysis</string>
+    <string name="labelCopyright">Copyright © 2015, Afaan Bilal.\nwww.amxinfinity.tk\nwww.coderevolution.tk</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+
+    <string name="about_title">\u00A0Statistical Analysis</string>
+    <string name="about_message">\u00A0by Afaan Bilal (@AfaanBilal)\n www.amxinfinity.tk\n www.coderevolution.tk</string>
+
+    <string name="ins_title">Instructions</string>
+    <string name="ins_message">
+        ☞ One entry per line.
+        \n☞ Data items must be in ascending order.
+        \n☞ Frequencies must be filled corresponding to their data items.
+        \n☞ In case of ungrouped data, enter \"1\" for each data item in frequency box.</string>
+
+    <string name="err_title">Error!</string>
+    <string name="err_message">Please enter only numeric values for data, only whole number values
+        for frequencies and ensure each data item has a corresponding frequency and vice versa.
+        \n\n☞ Click Menu » Instructions for instructions.</string>
+
+    <string name="XiHint">Enter data values\n[One entry per line]\n[Ascending Order]</string>
+    <string name="FiHint">Enter frequencies\n[One entry per line]\n[\"1\" for ungrouped]</string>
+
+    <string name="button_calculate">Calculate!</string>
+    <string name="button_reset">Reset!</string>
+
+    <string name="titleResult">Result</string>
+    <string name="titleXi">Xi</string>
+    <string name="titleFi">Fi</string>
+    <string name="titleCF">C.F</string>
+    <string name="titleFiXi">Fi·Xi</string>
+    <string name="titleXiM">|Xi - Mean|</string>
+    <string name="titleFiXiM">Fi·|Xi - Mean|</string>
+    <string name="titleXiMd">|Xi - Md|</string>
+    <string name="titleFiXiMd">Fi·|Xi - Md|</string>
+
+    <string name="labelMd">Median:</string>
+    <string name="labelMean">Mean:</string>
+    <string name="labelDevM">Mean Deviation About Mean:</string>
+    <string name="labelDevMd">Mean Deviation About Median:</string>
+</resources>
