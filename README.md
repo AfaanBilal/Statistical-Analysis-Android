@@ -6,10 +6,10 @@ Author URL: **[Google+](https://google.com/+AfaanBilal)**
 
 ##### Blog Post: [CodeRevolution - Statistical Analysis: An All-Round Software for Basic Statistics (Class XI)](http://www.coderevolution.tk/2015/05/statistical-analysis-all-round-software.html)
 ##### Project Page: [afaan.cu.cc/Statistical-Analysis](http://afaan.cu.cc/Statistical-Analysis)
-##### Download: [Setup, V1.0.0](http://afaan.cu.cc/Statistical-Analysis/Statistical-Analysis-1.0.0-APK.zip)
+##### Download: [APK, V1.0.0](http://afaan.cu.cc/Statistical-Analysis/Statistical-Analysis-1.0.0-APK.zip)
 
 ## Introduction
-**Statistical Analysis** is the android port of the Statistical Analysis C# .NET Windows desktop app which can easily 
+**Statistical Analysis** is the android port of the *Statistical Analysis C# .NET Windows desktop app* which can easily 
 calculate frequency, mean, mode, cumulative frequency, median, mean deviation about mean, mean deviation about median of
 grouped and un-grouped data. 
 
