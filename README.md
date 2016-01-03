@@ -4,9 +4,9 @@ Statistical Analysis
 Author: **Afaan Bilal ([@AfaanBilal](https://github.com/AfaanBilal))**   
 Author URL: **[Google+](https://google.com/+AfaanBilal)**
 
-##### Blog Post: [CodeRevolution - Statistical Analysis: An All-Round Software for Basic Statistics (Class XI)](http://www.coderevolution.tk/2015/05/statistical-analysis-all-round-software.html)
-##### Project Page: [afaan.cu.cc/Statistical-Analysis](http://afaan.cu.cc/Statistical-Analysis)
-##### Download: [APK, V1.0.0](http://afaan.cu.cc/Statistical-Analysis/Statistical-Analysis-1.0.0-APK.zip)
+##### Blog Post: [CodeRevolution - Statistical Analysis: An All-Round Software for Basic Statistics (Class XI)](https://www.coderevolution.tk/2015/05/statistical-analysis-all-round-software.html)
+##### Project Page: [https://afaan.ml/Statistical-Analysis](https://afaan.ml/Statistical-Analysis)
+##### Download: [APK, V1.0.0](https://afaan.ml/Statistical-Analysis/Statistical-Analysis-1.0.0-APK.zip)
 
 ## Introduction
 **Statistical Analysis** is the android port of the *Statistical Analysis C# .NET Windows desktop app* which can easily 
