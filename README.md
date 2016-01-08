@@ -13,6 +13,13 @@ Author URL: **[Google+](https://google.com/+AfaanBilal)**
 calculate frequency, mean, mode, cumulative frequency, median, mean deviation about mean, mean deviation about median of
 grouped and un-grouped data. 
 
+## Screenshots
+![Statistical Analysis Android by Afaan Bilal](https://afaan.ml/screenshots/Statistical-Analysis-01.png "Statistical Analysis Android by Afaan Bilal")
+    
+![Statistical Analysis Android by Afaan Bilal](https://afaan.ml/screenshots/Statistical-Analysis-02.png "Statistical Analysis Android by Afaan Bilal")
+  
+![Statistical Analysis Android by Afaan Bilal](https://afaan.ml/screenshots/Statistical-Analysis-03.png "Statistical Analysis Android by Afaan Bilal")
+  
 ## Contributing
 All contributions are welcome. Please create an issue first for any feature request
 or bug. Then fork the repository, create a branch and make any changes to fix the bug 
