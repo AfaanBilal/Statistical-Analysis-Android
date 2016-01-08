@@ -9,7 +9,7 @@ Author URL: **[Google+](https://google.com/+AfaanBilal)**
 ##### Download: [APK, V1.0.0](https://afaan.ml/Statistical-Analysis/Statistical-Analysis-1.0.0-APK.zip)
 
 ## Introduction
-**Statistical Analysis** is the android port of the *Statistical Analysis C# .NET Windows desktop app* which can easily 
+**Statistical Analysis** is the android port of the *[Statistical Analysis C# .NET Windows desktop app](https://github.com/AfaanBilal/Statistical-Analysis)* which can easily 
 calculate frequency, mean, mode, cumulative frequency, median, mean deviation about mean, mean deviation about median of
 grouped and un-grouped data. 
 
