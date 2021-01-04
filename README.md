@@ -1,11 +1,10 @@
 Statistical Analysis
 ==============
 
-Author: **[Afaan Bilal](https://afaan.me)**  
+Author: **[Afaan Bilal](https://afaan.dev)**  
 
-##### Blog Post: [CodeRevolution - Statistical Analysis: An All-Round Software for Basic Statistics (Class XI)](https://www.coderevolution.tk/2015/05/statistical-analysis-all-round-software.html)
-##### Project Page: [https://afaan.me/Statistical-Analysis](https://afaan.me/Statistical-Analysis)
-##### Download: [APK, V1.0.0](https://afaan.me/Statistical-Analysis/Statistical-Analysis-1.0.0-APK.zip)
+##### Project Page: [https://afaan.dev/Statistical-Analysis](https://afaan.dev/Statistical-Analysis)
+##### Download: [APK, V1.0.0](https://afaan.dev/Statistical-Analysis/Statistical-Analysis-1.0.0-APK.zip)
 
 ## Introduction
 **Statistical Analysis** is the android port of the *[Statistical Analysis C# .NET Windows desktop app](https://github.com/AfaanBilal/Statistical-Analysis)* which can easily 
@@ -13,11 +12,11 @@ calculate frequency, mean, mode, cumulative frequency, median, mean deviation ab
 grouped and un-grouped data. 
 
 ## Screenshots
-![Statistical Analysis Android by Afaan Bilal](https://afaan.me/screenshots/Statistical-Analysis-01.png "Statistical Analysis Android by Afaan Bilal")
+![Statistical Analysis Android by Afaan Bilal](https://afaan.dev/screenshots/Statistical-Analysis-01.png "Statistical Analysis Android by Afaan Bilal")
     
-![Statistical Analysis Android by Afaan Bilal](https://afaan.me/screenshots/Statistical-Analysis-02.png "Statistical Analysis Android by Afaan Bilal")
+![Statistical Analysis Android by Afaan Bilal](https://afaan.dev/screenshots/Statistical-Analysis-02.png "Statistical Analysis Android by Afaan Bilal")
   
-![Statistical Analysis Android by Afaan Bilal](https://afaan.me/screenshots/Statistical-Analysis-03.png "Statistical Analysis Android by Afaan Bilal")
+![Statistical Analysis Android by Afaan Bilal](https://afaan.dev/screenshots/Statistical-Analysis-03.png "Statistical Analysis Android by Afaan Bilal")
   
 ## Contributing
 All contributions are welcome. Please create an issue first for any feature request
