@@ -12,11 +12,13 @@ calculate frequency, mean, mode, cumulative frequency, median, mean deviation ab
 grouped and un-grouped data. 
 
 ## Screenshots
-![Statistical Analysis Android by Afaan Bilal](https://afaan.dev/screenshots/Statistical-Analysis-01.png "Statistical Analysis Android by Afaan Bilal")
+![Statistical Analysis](https://afaan.dev/screenshots/Statistical-Analysis.png)
+
+![Statistical Analysis](https://afaan.dev/screenshots/Statistical-Analysis-01.png "Statistical Analysis Android by Afaan Bilal")
     
-![Statistical Analysis Android by Afaan Bilal](https://afaan.dev/screenshots/Statistical-Analysis-02.png "Statistical Analysis Android by Afaan Bilal")
+![Statistical Analysis](https://afaan.dev/screenshots/Statistical-Analysis-02.png "Statistical Analysis Android by Afaan Bilal")
   
-![Statistical Analysis Android by Afaan Bilal](https://afaan.dev/screenshots/Statistical-Analysis-03.png "Statistical Analysis Android by Afaan Bilal")
+![Statistical Analysis](https://afaan.dev/screenshots/Statistical-Analysis-03.png "Statistical Analysis Android by Afaan Bilal")
   
 ## Contributing
 All contributions are welcome. Please create an issue first for any feature request
